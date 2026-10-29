@@ -1,0 +1,132 @@
+{
+  "app": {
+    "name": "FDR-कवच",
+    "subtitle": "AICTE विनियमन ब्यूरो",
+    "tagline": "सावधि जमा रसीद जीवनचक्र प्लेटफ़ॉर्म"
+  },
+  "nav": {
+    "dashboard": "ब्यूरो डैशबोर्ड",
+    "fdrList": "FDR रजिस्ट्री",
+    "fdrDetail": "FDR विवरण",
+    "upload": "FDR जमा करें",
+    "fraudGraph": "धोखाधड़ी नेटवर्क",
+    "alerts": "अलर्ट और एस्केलेशन",
+    "release": "रिलीज़ अनुरोध",
+    "auditLog": "ऑडिट लॉग",
+    "reports": "रिपोर्ट",
+    "admin": "प्रशासन",
+    "integrations": "इंटीग्रेशन",
+    "rules": "नियम विन्यास"
+  },
+  "roles": {
+    "institution": "संस्थान",
+    "scrutiny_officer": "जांच अधिकारी",
+    "regional_officer": "क्षेत्रीय अधिकारी",
+    "bank_verifier": "बैंक सत्यापनकर्ता",
+    "authority": "प्राधिकरण",
+    "admin": "प्रशासक"
+  },
+  "status": {
+    "submitted": "प्रस्तुत",
+    "under_scrutiny": "जांच अधीन",
+    "verified": "सत्यापित",
+    "active": "सक्रिय",
+    "expiring": "समाप्ति निकट",
+    "renewal_pending": "नवीनीकरण लंबित",
+    "renewed": "नवीनीकृत",
+    "matured": "परिपक्व",
+    "release_requested": "रिलीज़ अनुरोधित",
+    "released": "रिलीज़",
+    "discrepancy": "विसंगति",
+    "rejected": "अस्वीकृत"
+  },
+  "tier": {
+    "submitted": "प्रस्तुत",
+    "system_validated": "सिस्टम सत्यापित",
+    "officer_verified": "अधिकारी सत्यापित",
+    "bank_confirmed": "बैंक पुष्ट"
+  },
+  "actions": {
+    "assign": "जांच हेतु नियत करें",
+    "approve": "अनुमोदित करें",
+    "reject": "अस्वीकार करें",
+    "flag": "विसंगति चिह्नित करें",
+    "respond": "विसंगति का उत्तर दें",
+    "renew": "नवीनीकरण आरंभ करें",
+    "confirmBank": "पुष्टि करें (बैंक)",
+    "requestRelease": "रिलीज़ अनुरोध करें",
+    "approveRelease": "रिलीज़ अनुमोदित करें",
+    "verify": "सत्यापित करें",
+    "verifyIntegrity": "अखंडता जाँचें",
+    "resetToday": "आज पर रीसेट करें",
+    "viewDetail": "विवरण देखें",
+    "export": "निर्यात करें",
+    "filter": "फ़िल्टर",
+    "search": "खोजें",
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "close": "बंद करें"
+  },
+  "dashboard": {
+    "secured": "सुरक्षित",
+    "claimed": "दावित",
+    "of": "में से",
+    "maturityRadar": "परिपक्वता रडार",
+    "trustDistribution": "विश्वास स्तर वितरण",
+    "stateBreakdown": "क्षेत्रीय विश्लेषण",
+    "recentActivity": "हालिया गतिविधि",
+    "riskOverview": "जोखिम अवलोकन",
+    "activeAlerts": "सक्रिय अलर्ट"
+  },
+  "table": {
+    "fdrNumber": "FDR संख्या",
+    "institution": "संस्थान",
+    "bank": "बैंक",
+    "branch": "शाखा",
+    "ifsc": "IFSC",
+    "amount": "राशि",
+    "issueDate": "जारी तिथि",
+    "maturityDate": "परिपक्वता तिथि",
+    "status": "स्थिति",
+    "trustTier": "विश्वास स्तर",
+    "riskScore": "जोखिम स्कोर",
+    "state": "राज्य",
+    "actions": "कार्रवाई",
+    "noResults": "आपके फ़िल्टर से कोई रिकॉर्ड मेल नहीं खाता",
+    "showing": "दिखा रहे हैं",
+    "of": "में से",
+    "records": "रिकॉर्ड"
+  },
+  "risk": {
+    "low": "कम जोखिम",
+    "moderate": "मध्यम जोखिम",
+    "high": "उच्च जोखिम",
+    "score": "जोखिम स्कोर",
+    "factors": "योगदान कारक"
+  },
+  "clock": {
+    "simulatedDate": "अनुकरणित तिथि",
+    "today": "आज"
+  },
+  "audit": {
+    "integrityValid": "श्रृंखला अखंडता सत्यापित — सभी प्रविष्टियाँ प्रामाणिक",
+    "integrityBroken": "श्रृंखला अखंडता प्रविष्टि पर टूटी",
+    "verifying": "हैश श्रृंखला सत्यापित हो रही है…"
+  },
+  "upload": {
+    "dragDrop": "FDR दस्तावेज़ यहाँ खींचें और छोड़ें, या ब्राउज़ करें",
+    "scanning": "दस्तावेज़ स्कैन हो रहा है…",
+    "extracting": "फ़ील्ड निकाले जा रहे हैं…",
+    "preChecklist": "प्रस्तुति-पूर्व जाँचसूची",
+    "submit": "FDR जमा करें",
+    "allChecksPassed": "सभी जाँचें पास",
+    "issuesFound": "समस्याएँ पाई गईं"
+  },
+  "common": {
+    "loading": "लोड हो रहा है…",
+    "error": "एक त्रुटि हुई",
+    "retry": "पुनः प्रयास करें",
+    "empty": "अभी कुछ नहीं है",
+    "mockAdapter": "मॉक एडाप्टर"
+  }
+}

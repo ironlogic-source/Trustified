@@ -1,0 +1,132 @@
+{
+  "app": {
+    "name": "FDR-Kavach",
+    "subtitle": "AICTE Regulation Bureau",
+    "tagline": "Fixed Deposit Receipt Lifecycle Platform"
+  },
+  "nav": {
+    "dashboard": "Bureau Dashboard",
+    "fdrList": "FDR Registry",
+    "fdrDetail": "FDR Detail",
+    "upload": "Submit FDR",
+    "fraudGraph": "Fraud Network",
+    "alerts": "Alerts & Escalation",
+    "release": "Release Requests",
+    "auditLog": "Audit Log",
+    "reports": "Reports",
+    "admin": "Administration",
+    "integrations": "Integrations",
+    "rules": "Rules Configuration"
+  },
+  "roles": {
+    "institution": "Institution",
+    "scrutiny_officer": "Scrutiny Officer",
+    "regional_officer": "Regional Officer",
+    "bank_verifier": "Bank Verifier",
+    "authority": "Authority",
+    "admin": "Administrator"
+  },
+  "status": {
+    "submitted": "Submitted",
+    "under_scrutiny": "Under Scrutiny",
+    "verified": "Verified",
+    "active": "Active",
+    "expiring": "Expiring",
+    "renewal_pending": "Renewal Pending",
+    "renewed": "Renewed",
+    "matured": "Matured",
+    "release_requested": "Release Requested",
+    "released": "Released",
+    "discrepancy": "Discrepancy",
+    "rejected": "Rejected"
+  },
+  "tier": {
+    "submitted": "Submitted",
+    "system_validated": "System Validated",
+    "officer_verified": "Officer Verified",
+    "bank_confirmed": "Bank Confirmed"
+  },
+  "actions": {
+    "assign": "Assign for Scrutiny",
+    "approve": "Approve",
+    "reject": "Reject",
+    "flag": "Flag Discrepancy",
+    "respond": "Respond to Discrepancy",
+    "renew": "Initiate Renewal",
+    "confirmBank": "Confirm (Bank)",
+    "requestRelease": "Request Release",
+    "approveRelease": "Approve Release",
+    "verify": "Verify",
+    "verifyIntegrity": "Verify Integrity",
+    "resetToday": "Reset to today",
+    "viewDetail": "View Detail",
+    "export": "Export",
+    "filter": "Filter",
+    "search": "Search",
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close"
+  },
+  "dashboard": {
+    "secured": "secured",
+    "claimed": "claimed",
+    "of": "of",
+    "maturityRadar": "Maturity Radar",
+    "trustDistribution": "Trust Tier Distribution",
+    "stateBreakdown": "Regional Breakdown",
+    "recentActivity": "Recent Activity",
+    "riskOverview": "Risk Overview",
+    "activeAlerts": "Active Alerts"
+  },
+  "table": {
+    "fdrNumber": "FDR Number",
+    "institution": "Institution",
+    "bank": "Bank",
+    "branch": "Branch",
+    "ifsc": "IFSC",
+    "amount": "Amount",
+    "issueDate": "Issue Date",
+    "maturityDate": "Maturity Date",
+    "status": "Status",
+    "trustTier": "Trust Tier",
+    "riskScore": "Risk Score",
+    "state": "State",
+    "actions": "Actions",
+    "noResults": "No records match your filters",
+    "showing": "Showing",
+    "of": "of",
+    "records": "records"
+  },
+  "risk": {
+    "low": "Low Risk",
+    "moderate": "Moderate Risk",
+    "high": "High Risk",
+    "score": "Risk Score",
+    "factors": "Contributing Factors"
+  },
+  "clock": {
+    "simulatedDate": "Simulated Date",
+    "today": "Today"
+  },
+  "audit": {
+    "integrityValid": "Chain integrity verified — all entries authentic",
+    "integrityBroken": "Chain integrity broken at entry",
+    "verifying": "Verifying hash chain…"
+  },
+  "upload": {
+    "dragDrop": "Drag and drop FDR document here, or click to browse",
+    "scanning": "Scanning document…",
+    "extracting": "Extracting fields…",
+    "preChecklist": "Pre-Submission Checklist",
+    "submit": "Submit FDR",
+    "allChecksPassed": "All checks passed",
+    "issuesFound": "issues found"
+  },
+  "common": {
+    "loading": "Loading…",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "empty": "Nothing here yet",
+    "mockAdapter": "Mock adapter"
+  }
+}
