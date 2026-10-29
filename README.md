@@ -265,7 +265,7 @@ npm run build
 
 ---
 
-## 📊 Measurable Impact Metrics
+## 📊 Measurable Impact 
 
 Based on the synthetic evaluation benchmark:
 - ⚡ **Pre-submission Defect Prevention:** **100%** of non-compliant instruments detected before regulatory submission.
