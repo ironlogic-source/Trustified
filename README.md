@@ -232,12 +232,6 @@ Trustified-main/
 
 ---
 
-## 🌐 Deployment
-
-The project is deployed on Vercel.
-
----
-
 ## ⚡ Quick Start Guide
 
 ### Prerequisites
