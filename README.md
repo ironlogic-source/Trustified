@@ -278,3 +278,16 @@ Based on the synthetic evaluation benchmark:
 ## 📄 License
 This project is developed for **Smart India Hackathon (SIH 2026)** under Problem Statement **SIH26265**.
 Licensed under the [MIT License](LICENSE).
+
+
+## 🔗 Quick Links
+
+| Resource | Description |
+|---|---|
+| **Dev Server** | [http://localhost:5173](http://localhost:5173) |
+| **Project Root** | `fdr-kavach/` |
+| **Seed Data** | `seed.ts` |
+| **Engine Types** | `types.ts` |
+| **Login Screen** | `LoginScreen.tsx` |
+| **Reports Screen** | `Reports.tsx` |
+
