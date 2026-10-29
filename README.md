@@ -62,7 +62,7 @@ Historically, tracking and reconciling thousands of physical and digitized FDRs 
                                     │
 ┌───────────────────────────────────▼────────────────────────────────────┐
 │                    EXTERNAL INTEGRATION / ADAPTERS                     │
-│  Bank Core APIs · DigiLocker / OCR · Aadhaar eSign · SMS / Email Alerts │
+│  Bank Core APIs · DigiLocker / OCR · Aadhaar eSign · SMS / Email Alerts│
 └────────────────────────────────────────────────────────────────────────┘
 ```
 
