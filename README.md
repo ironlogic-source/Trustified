@@ -31,7 +31,7 @@ Historically, tracking and reconciling thousands of physical and digitized FDRs 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
 │                        PRESENTATION & UI LAYER                         │
-│  React 18 · Tailwind CSS (Gov-Kavach Tokens) · Radix UI · ECharts 5   │
+│  React 18 · Tailwind CSS (Gov-Kavach Tokens) · Radix UI · ECharts 5    │
 │  Cytoscape.js (Fraud Graph) · Lucide Icons · react-i18next (En / Hi)   │
 └───────────────────────────────────┬────────────────────────────────────┘
                                     │
