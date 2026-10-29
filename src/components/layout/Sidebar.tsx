@@ -58,7 +58,14 @@ export const Sidebar: React.FC = () => {
       to: '/upload',
       labelKey: 'nav.upload',
       icon: <UploadCloud size={16} />,
-      allowedRoles: ['institution', 'admin'],
+      allowedRoles: [
+        'institution',
+        'scrutiny_officer',
+        'regional_officer',
+        'bank_verifier',
+        'authority',
+        'admin',
+      ],
     },
     {
       id: 'fraudGraph',
