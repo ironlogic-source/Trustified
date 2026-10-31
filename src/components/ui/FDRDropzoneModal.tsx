@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useMemo } from 'react';
 import { useFDRStore } from '../../stores/fdrStore';
 import { useInstitutionStore } from '../../stores/institutionStore';
 import { useAuthStore } from '../../stores/authStore';
@@ -115,9 +115,11 @@ export const FDRDropzoneModal: React.FC<FDRDropzoneModalProps> = ({
     }, 1250);
   };
 
-  // Convert rupees string to paise integer
-  const cleanPaise =
-    parseInt(formData.amountRupees.replace(/,/g, ''), 10) * 100 || 2500000000;
+  const cleanPaise = useMemo(() => {
+    const rawNumber = formData.amountRupees.replace(/[^0-9]/g, '');
+    const parsed = parseInt(rawNumber, 10);
+    return isNaN(parsed) ? 2500000000 : parsed * 100;
+  }, [formData.amountRupees]);
 
   // Preview FDR object for logic checking
   const previewFDR: FDR = {
