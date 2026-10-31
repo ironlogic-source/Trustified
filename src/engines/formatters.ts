@@ -134,6 +134,10 @@ export function formatDate(iso: string): string {
  * @throws Error if the code is not a valid IFSC format.
  */
 export function formatIFSC(code: string): string {
+  if (!code || typeof code !== 'string') {
+    throw new Error('Invalid IFSC code: input must be a non-empty string.');
+  }
+
   const trimmed = code.trim().toUpperCase();
   const ifscPattern = /^[A-Z]{4}0[A-Z0-9]{6}$/;
 
@@ -144,6 +148,17 @@ export function formatIFSC(code: string): string {
   }
 
   return trimmed;
+}
+
+/**
+ * Checks whether an IFSC code matches valid format without throwing an error.
+ *
+ * @param code - Raw IFSC code string.
+ * @returns boolean indicating validity.
+ */
+export function isValidIFSC(code: string): boolean {
+  if (!code || typeof code !== 'string') return false;
+  return /^[A-Z]{4}0[A-Z0-9]{6}$/.test(code.trim().toUpperCase());
 }
 
 // ---------------------------------------------------------------------------
