@@ -252,4 +252,12 @@ describe('Fraud Graph Engine', () => {
     const hashCluster = graph.clusters.find((c) => c.id.includes('HASH'));
     expect(hashCluster).toBeDefined();
   });
+
+  it('verifies IFSC format helper behavior', async () => {
+    const { formatIFSC, isValidIFSC } = await import('../engines/formatters');
+    expect(isValidIFSC('SBIN0000691')).toBe(true);
+    expect(isValidIFSC('INVALID_IFSC')).toBe(false);
+    expect(formatIFSC('sbin0000691')).toBe('SBIN0000691');
+    expect(() => formatIFSC('1234')).toThrow();
+  });
 });
