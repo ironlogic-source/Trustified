@@ -81,8 +81,25 @@ type RuleFunction = (fdr: FDR, allFdrs: FDR[]) => LogicCheckResult;
  * Rule: Maturity date must not precede the issue date.
  */
 function checkMaturityBeforeIssue(fdr: FDR, _allFdrs: FDR[]): LogicCheckResult {
-  const issueMs = new Date(fdr.issueDate).getTime();
-  const maturityMs = new Date(fdr.maturityDate).getTime();
+  const issueDate = new Date(fdr.issueDate);
+  const maturityDate = new Date(fdr.maturityDate);
+
+  const issueMs = issueDate.getTime();
+  const maturityMs = maturityDate.getTime();
+
+  if (isNaN(issueMs) || isNaN(maturityMs)) {
+    return {
+      rule: 'maturity_before_issue',
+      passed: false,
+      severity: 'error',
+      message: 'Invalid issue or maturity date format provided.',
+      details: {
+        issueDate: fdr.issueDate,
+        maturityDate: fdr.maturityDate,
+      },
+    };
+  }
+
   const passed = maturityMs >= issueMs;
 
   return {
